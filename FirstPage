@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="icon" type="image/png" href="media/icon.png">
+	<title>My first webpage</title>
+	<script src="https://kit.fontawesome.com/323ed01cf7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<header>
+	<nav> 
+		<a href="#LoveStory">Love Story</a>
+        <a href="#media">Media</a>
+        <a href="#Links">My Links</a>
+	</nav>
+	<h1 style="color: #DC143C">I love you </h1>
+    <h2 style="color: #800000">So much</h2>
+    <a href="FirstProject.html">Second Page</a>
+</header>
+<address>Nikita Pelenskii</address>
+<div id="Buttons">
+    <button>text</button>
+    <button><img src="https://i.pinimg.com/474x/67/2b/8d/672b8d3bd70e3540d4a3ce4f65314778--red-hearts-poker-party.jpg" 
+    width="100" height="100" alt="Heart 2" title="Heart"></button>
+    <meter value="10" max="100" min="1">Hot</meter>
+    <progress value="10" max="200"></progress>
+    <iframe src="FirstProject.html"></iframe>
+    <iframe src="https://www.instagram.com/bensofiia/"></iframe>
+    <p>I love you</p>
+    <p><bdo dir="rtl">I Love you</bdo></p>
+</div>
+<aside id="LoveStory">
+    <h2>Love story</h2>
+        <hr>   
+            <p><cite>Baby</cite>, when you hold me, my emotions makes it clear<br>Just how much you mean to me while we are laying here.<br>I listen to your heartbeat in rhythm with my own,<br> With every pound that warming sound keeps me safe with love you've shown.</p><br>
+            <p><abbr>NP</abbr> Nikita <sub>pelenskii 30</sub> <sup>Pelenskii</sup></p>
+        <hr>   
+</aside>
+<details>
+    <summary>Our love</summary>
+    <p>Secret</p>
+</details>
+<p>I Sing <span>the Body Electric</span></p>
+<blockquote>I sing the body electric,<br>The armies of those I love engirth me and I engirth them,<br>They will not let me off till I go with them, respond to them,<br> And discorrupt them, and charge them full with...</blockquote>
+<ul>
+    <li style=" color: #e60000">My little girl</li>
+</ul>
+<main>
+	<ul>
+		<li><a href="FirstProject.html" target="_self">Secong page Standart</a></li>
+	    <li><a href="FirstProject.html" target="_blank">Secong page New Window</a></li>
+	    <li><a href="FirstProject.html" target="_top">Secong page Top</a></li>
+	    <li><a href="FirstProject.html" target="_parent">Secong page Parent</a></li>
+	</ul>
+<div id="Table">
+    <table>
+        <tr><th>1</th><td>Sofi</td><td>and</td><td>Niki</td></tr>
+        <tr><th>2</th><td>Love</td><td>For</td><td>a</td></tr>
+        <tr><th>3</th><td>Ye</td><td>ar</td><td>rs</td></tr>
+    </table>
+    <table>
+        <tr>
+            <th>Child name:</th><th>Parents name:</th>
+        </tr>
+        <tr>
+            <td rowspan="2">James</td><td>Niki</td>
+        </tr>
+        <tr>
+            <td>Sofi</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Anna</td><td>Niki</td>
+        </tr>
+        <tr>
+            <td>Sofi</td>
+        </tr>
+    </table>
+</div>
+<div id="Tags">
+    
+</div>
+<figure>
+    <p><img src="media/unnamed.jpg" alt="Heart"></p><br>
+	    <figcaption>A heart</figcaption>
+</figure>
+<figure>
+    <p><img src="https://i.pinimg.com/474x/67/2b/8d/672b8d3bd70e3540d4a3ce4f65314778--red-hearts-poker-party.jpg" 
+    width="100" height="100" alt="Heart 2" title="Heart"></p>
+        <figcaption>A heart</figcaption>
+</figure>
+<a href="https://www.instagram.com/bensofiia/"><img src="media/unnamed.jpg" alt="My lovin girl" title="My Lovin girl"></a><br>
+<i class="fas fa-heart fa-3x"></i>
+</main>
+<div id="media">
+    <h2>Media</h2>
+    <video controls width="1000" height="600">
+	    <source src="media/Untitledvideo.mp4">
+    </video><br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ZZ42FabiENE" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <figure>
+    	<figcaption>Laud - 2 Dni</figcaption>
+    <audio controls>
+    	<source src="media/laud.mp3" type="audio/mpeg">Your browser does not support the audio element.
+    </audio><br>
+    </figure>
+        <audio controls="controls" src="media/laud.mp3#t=20">Your browser does not support the audio element.
+        </audio>
+    <figure>
+        <figcaption>Laud - 2 Dni</figcaption>
+            <audio controls src="media/laud.mp3#t=90">Your browser does not support the audio element.
+            </audio>
+    </figure>
+</div>
+<div id="Links">
+    <footer> &copy; 2020 by N.P.<br>
+	    <a href="https://www.instagram.com/pelenskii30/" aria-label="My Instagram"><i class="fab fa-instagram fa-3x" style="color: #FF8300"></i></a> 
+        <a href="https://www.instagram.com/pelenskii30/">My instagram</a>
+    </footer>
+</div>
+</body>
+</html>
